@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/staticwebapp.config.json",
   "networking": {
     "allowedIpRanges": [
-      "150.249.201.93/32"
+      "AzureFrontDoor.Backend"
     ]
   }
 }
