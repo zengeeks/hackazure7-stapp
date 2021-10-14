@@ -1,16 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/staticwebapp.config.json",
-  "networking": {
-    "allowedIpRanges": [
-      "AzureFrontDoor.Backend"
-    ]
-  },
-  "forwardingGateway": {
-    "requiredHeaders": {
-      "X-Azure-FDID": "a47c16e3-7431-4c5f-8989-33d6f3d55bf7"
-    },
-    "allowedForwardedHosts": [
-      "myk-demo.azurefd.net"
-    ]
+  "navigationFallback": {
+    "rewrite": "/index.html"
   }
 }
